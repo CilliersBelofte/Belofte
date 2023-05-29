@@ -203,35 +203,31 @@ body{
   z-index: 2;
 }
 
-body.bg-cover{
-  
-  height: auto;
+body {
+  height: 100vh;
+  background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;
+  background-size: cover;
   position: relative;
-  background: #ede3da;
 }
 
-body.bg-cover:before{
-  top: 0;
-  background: url(../images/verlowing/pampas.jpg) no-repeat top center;
-  opacity: 0.4;
-}
-
-body.bg-cover:after{
-  bottom: 0;
-  background: url(../images/1920x757_bg1.jpg) no-repeat bottom center;
-}
-
-body.bg-cover:after,
-body.bg-cover:before{
+body:before {
   content: '';
   position: absolute;
+  top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+
+  opacity: 0.4;
   z-index: -1;
-  -webkit-background-size: contain;
-  background-size: contain;
 }
+
+body:before,
+body:after {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
 
 body.box-type .wrapper-container{
   max-width: 1510px;
@@ -4514,9 +4510,10 @@ button.sc-cart-btn:after{
       flex-flow: row-reverse;
     }
 
-    .icons-box.style-4 .icons-img-col{
+    .icons-box.style-4 .icons-img-col {
       -webkit-background-size: cover;
       background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .icons-box.style-4 .icons-item{
