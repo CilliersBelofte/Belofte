@@ -210,8 +210,8 @@ body{
 
 body {
   height: 100vh;
-  background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;
-  /*background-color: #e3dac9;*/
+  /*background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;*/
+  background-color: #e3dac9;
   background-size: cover;
   position: relative;
 }
@@ -5618,6 +5618,7 @@ button.sc-cart-btn:after{
 
   .team-item h5.member-name{
     font-size: 1.500em;
+    color: #b08e5b;
   }
 
   .team-item h2.member-name{
