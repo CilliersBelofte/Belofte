@@ -205,7 +205,8 @@ body{
 
 body {
   height: 100vh;
-  background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;
+ /* background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;*/
+  background-color: #e3dac9;
   background-size: cover;
   position: relative;
 }
@@ -5756,7 +5757,7 @@ button.sc-cart-btn:after{
   }
 
   .countdown-wrap .svg-icon .cls-1{
-    stroke: rgba(240,95,121,0.06);
+    stroke: rgba(179, 26, 54, 0.06);
     stroke-width: 5;
   }
 
@@ -5791,7 +5792,7 @@ button.sc-cart-btn:after{
       padding-bottom: 20px;
       text-align: center;
       font-size: 0.750em;
-      color: #999;
+      color: #d4938b;
       font-weight: 500;
       line-height: 0.7em;
       text-transform: uppercase;
