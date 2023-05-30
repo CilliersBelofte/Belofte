@@ -176,15 +176,19 @@ body{
 
 .wrapper-container{
   position: relative;
+  background:#f6f6f6;
+  color:#f6f6f6 ;
 }
 
 .wrapper-container.full-src{
   overflow: visible;
+  background:#f6f6f6;
 }
 
 .wrapper-container.page-full-height{
   display: flex;
   flex-direction: column;
+  background:#f6f6f6;
 }
 
 .wrapper-container.page-full-height #content{
@@ -196,6 +200,7 @@ body{
   align-items: center;
   justify-content: center;
   flex: 1 0 auto;
+  background:#f6f6f6;
 }
 
 #footer[class*="footer"]{
@@ -205,8 +210,8 @@ body{
 
 body {
   height: 100vh;
- /* background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;*/
-  background-color: #e3dac9;
+  background: url(../images/verlowing/pampas3.jpg) no-repeat fixed center center;
+  /*background-color: #e3dac9;*/
   background-size: cover;
   position: relative;
 }
