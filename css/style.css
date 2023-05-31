@@ -1413,7 +1413,7 @@ body.box-type .wrapper-container .header{
 .responsive-nav-button{
   display: none;
   text-align: center;
-  color: #262626;
+  color: #b08e5b;
   font-size: 23px;
   z-index: 2;
   border-radius: 0;
@@ -1440,7 +1440,9 @@ body.box-type .wrapper-container .header{
   padding: 10px 0;
 }
 
-.mobile-advanced{display: none;}
+.mobile-advanced{display: none;
+background-color: #f6f6f6;
+}
 
 /* Navigation Bar */
 
@@ -2844,7 +2846,7 @@ button.sc-cart-btn:after{
       left: 8px;
       top: 11px;
       border-radius: 50%;
-      background-color: #262626;
+      background-color: #f6f6f6;
       width: 10px;
       height: 10px;
     }
